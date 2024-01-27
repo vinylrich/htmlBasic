@@ -1,0 +1,20 @@
+a:link{
+    color:red;
+    text-decoration: none;
+}
+a:visited{
+    color:blue;
+
+}
+a:hover{
+    color:orange;
+    text-decoration: none;
+}
+a:active{
+    color:green;
+    text-decoration: underline;
+}
+a{
+    font-size: 60px;
+}
+body{ text-align: center;}
