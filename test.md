@@ -1,1 +1,0 @@
-github push와 pull을 test하기위한 레퍼지토리 입니다.
