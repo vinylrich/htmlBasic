@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    body{font-size: 20px;}
+    small{color: coral;}
+    div{
+        color: red;
+        font-size: 40px;
+        text-align: center;
+        gap: 40px;
+    }
+    div::after{
+        content:"";
+        display:block;
+        width:100%;height: 4px;
+        background: #000;
+        transition: all 1s;
+    }
+    .center::after{
+        transform: scaleX(0);
+    }
+    .center:hover::after{
+        transform: scaleX(1);
+    }
+</style>
+<body>
+    지금 시간은 2024년 01월 27일 (토) 19:19입니다. <br>
+    <small> 지금 시간은 2024년 01월 27일 (토) 19:19입니다. </small><br>
+    <del> 지금 시간은 2024년 01월 27일 (토) 19:19입니다. </del><br>
+    <a href="https://www.naver.com/">네이버</a><br>
+    <a href="https://github.com/vinylrich" target="_blank">내 github 링크</a>
+    <div class="center">GOOGLE</div>
+
+</html>
